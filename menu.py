@@ -104,7 +104,7 @@ button_Formula_General = Button(window, text="Formula General", background="oran
 button_Formula_General.pack()
 
 #BOTON 4 - SALIR
-button_exit = Button(window, text="SALIR", background="red", command=window.quit)
+button_exit = Button(window, text="SALIR", background="red", command=window.destroy)
 button_exit.pack()
 
 window.mainloop()
